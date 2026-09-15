@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nam Anh's developer portfolio — achievements, skills, and projects from GitHub.">
+  <title>Nam Anh | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="Nam Anh home">Nam Anh<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+    </nav>
+    <a class="github-button" href="https://github.com/Levi3110" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2.23c-3.22.7-3.9-1.37-3.9-1.37-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.57-.3-5.27-1.29-5.27-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.06 0 0 .97-.31 3.16 1.18A10.98 10.98 0 0 1 12 6.1c.98 0 1.95.13 2.86.38 2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.23 2.77.12 3.06.73.81 1.17 1.84 1.17 3.1 0 4.41-2.71 5.39-5.29 5.68.42.36.79 1.07.79 2.16v3.25c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg>
+      GitHub profile
+    </a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section id="home" class="hero wrap">
+      <div class="hero-copy reveal">
+        <div class="status"><i></i> Developer & AI builder</div>
+        <p class="intro">Hi, I’m Nam Anh</p>
+        <h1>I build practical<br><span>AI-powered products.</span></h1>
+        <p class="hero-text">I’m a developer focused on artificial intelligence, full-stack web applications, and retrieval systems. I learn by turning ideas into working projects and sharing the results on GitHub.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#projects">View my projects <span>→</span></a>
+          <a class="secondary-button" href="#achievements">See achievements</a>
+        </div>
+        <div class="quick-stats" aria-label="GitHub overview">
+          <div><strong>6</strong><span>Public repositories</span></div>
+          <div><strong>4</strong><span>Completed applications</span></div>
+          <div><strong>2026</strong><span>Building since</span></div>
+        </div>
+      </div>
+
+      <aside class="profile-card reveal delay">
+        <div class="profile-accent"></div>
+        <img src="https://avatars.githubusercontent.com/u/281308930?v=4" alt="Nam Anh's GitHub profile picture">
+        <div class="profile-content">
+          <div><h2>Nam Anh</h2><p>@Levi3110</p></div>
+          <span class="available">Available to collaborate</span>
+        </div>
+        <div class="profile-focus">
+          <p>Currently focused on</p>
+          <strong>AI agents, RAG & product engineering</strong>
+        </div>
+        <a href="https://github.com/Levi3110" target="_blank" rel="noopener noreferrer">Follow my work on GitHub <span>↗</span></a>
+      </aside>
+    </section>
+
+    <section id="about" class="about-section section">
+      <div class="wrap about-grid">
+        <div class="section-label reveal"><span>01</span> About me</div>
+        <div class="about-copy reveal">
+          <h2>A developer who learns<br>by <span>building.</span></h2>
+          <div class="about-text">
+            <p>My journey started with HTML and Git fundamentals, then grew into full-stack JavaScript, Django applications, and intelligent systems powered by language models.</p>
+            <p>Today, I build projects that combine solid software engineering with practical AI: conversational agents, hybrid search, tool calling, voice interfaces, and useful web experiences.</p>
+          </div>
+        </div>
+        <div class="principles reveal">
+          <article><b>01</b><div><h3>Build for real use</h3><p>Technology matters when it solves a clear problem.</p></div></article>
+          <article><b>02</b><div><h3>Learn in public</h3><p>Every repository documents a step forward.</p></div></article>
+          <article><b>03</b><div><h3>Keep improving</h3><p>Each project becomes more ambitious and complete.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section achievements-section">
+      <div class="wrap">
+        <div class="section-top reveal">
+          <div><div class="section-label"><span>02</span> Achievements</div><h2>Progress I’m proud of</h2></div>
+          <p>Verified highlights from my public GitHub work.</p>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement-card featured-achievement reveal">
+            <div class="achievement-icon">01</div>
+            <div class="achievement-content">
+              <span>AI SYSTEM</span>
+              <h3>Built an end-to-end voice-first shopping agent</h3>
+              <p>Created NAmazon for TikTok TechJam: a self-hosted conversational product search system combining BM25, semantic embeddings, FAISS, conversation memory, Qwen reranking, speech recognition, and a speaking avatar.</p>
+              <a href="https://github.com/Levi3110/TiktokTechjam-2026" target="_blank" rel="noopener noreferrer">View the project <span>↗</span></a>
+            </div>
+          </article>
+          <article class="achievement-card reveal delay-one">
+            <div class="achievement-icon">02</div>
+            <div class="metric">0.612</div>
+            <span>TECHNICAL SCORE</span>
+            <h3>Measured retrieval performance</h3>
+            <p>NAmazon reached 0.69 Hit Rate@10 and 0.481 MRR across 200 documented evaluation sessions with Qwen enabled.</p>
+          </article>
+          <article class="achievement-card reveal delay-two">
+            <div class="achievement-icon">03</div>
+            <div class="metric">6</div>
+            <span>PUBLIC REPOSITORIES</span>
+            <h3>Consistent project growth</h3>
+            <p>Progressed from first HTML experiments to full-stack applications and advanced AI systems in one public portfolio.</p>
+          </article>
+          <article class="achievement-card reveal delay-one">
+            <div class="achievement-icon">04</div>
+            <div class="metric">50K</div>
+            <span>PRODUCT CATALOG</span>
+            <h3>Engineered search at scale</h3>
+            <p>Built hybrid retrieval over a 50,000-product catalog using lexical and vector search with weighted rank fusion.</p>
+          </article>
+          <article class="achievement-card reveal delay-two">
+            <div class="achievement-icon">05</div>
+            <div class="metric">1st</div>
+            <span>FULL-STACK PROJECT</span>
+            <h3>Shipped a complete notes app</h3>
+            <p>Connected a React interface to a Node API, database models, routing, rate limiting, and persistent note management.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="wrap">
+        <div class="section-top reveal">
+          <div><div class="section-label"><span>03</span> GitHub projects</div><h2>Things I’ve built</h2></div>
+          <a class="underlined-link" href="https://github.com/Levi3110?tab=repositories" target="_blank" rel="noopener noreferrer">View all on GitHub ↗</a>
+        </div>
+
+        <article class="main-project reveal">
+          <div class="main-project-visual">
+            <span class="project-index">Featured / 01</span>
+            <div class="app-window">
+              <div class="window-bar"><i></i><i></i><i></i><span>NAmazon</span></div>
+              <div class="app-body">
+                <div class="app-brand">N<span>A</span>MAZON</div>
+                <h3>What can I help you find?</h3>
+                <div class="voice-pill"><i></i><i></i><i></i><i></i><i></i><span>Listening...</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="main-project-copy">
+            <div><span class="project-type">AI · VOICE · RETRIEVAL</span><h3>NAmazon</h3><p>Conversational product search that asks useful follow-up questions and recommends relevant products within ten turns. Designed to run without paid model APIs.</p></div>
+            <div>
+              <ul class="tech-list"><li>Python</li><li>Qwen</li><li>FAISS</li><li>BM25</li><li>FastAPI</li></ul>
+              <a class="project-link" href="https://github.com/Levi3110/TiktokTechjam-2026" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="card-number">02</div><span class="project-type">AI AGENT</span>
+            <h3>AI Research Agent</h3>
+            <p>A research assistant that uses live web search and calculator tools, remembers conversation context, and returns structured answers with sources.</p>
+            <ul class="tech-list"><li>LangChain</li><li>Qwen</li><li>FastAPI</li><li>Python</li></ul>
+            <a href="https://github.com/Levi3110/AI-Research-Agent-" target="_blank" rel="noopener noreferrer">Repository <span>↗</span></a>
+          </article>
+          <article class="project-card reveal delay-one">
+            <div class="card-number">03</div><span class="project-type">FULL STACK</span>
+            <h3>Note App</h3>
+            <p>A complete notes application with create, read, update, and delete flows, plus database persistence and API rate limiting.</p>
+            <ul class="tech-list"><li>React</li><li>Node.js</li><li>MongoDB</li><li>Tailwind</li></ul>
+            <a href="https://github.com/Levi3110/Note-app-" target="_blank" rel="noopener noreferrer">Repository <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="card-number">04</div><span class="project-type">WEB APP</span>
+            <h3>Weather Forecast</h3>
+            <p>A Django weather application that searches by city, displays current temperature, and changes backgrounds based on the location.</p>
+            <ul class="tech-list"><li>Python</li><li>Django</li><li>HTML</li><li>CSS</li></ul>
+            <a href="https://github.com/Levi3110/Weather-forecast" target="_blank" rel="noopener noreferrer">Repository <span>↗</span></a>
+          </article>
+          <article class="project-card reveal delay-one">
+            <div class="card-number">05</div><span class="project-type">LEARNING</span>
+            <h3>Git Journey</h3>
+            <p>A hands-on repository documenting early Git practice: files, folders, commits, and the foundations of version-controlled development.</p>
+            <ul class="tech-list"><li>Git</li><li>GitHub</li></ul>
+            <a href="https://github.com/Levi3110/git-journey" target="_blank" rel="noopener noreferrer">Repository <span>↗</span></a>
+          </article>
+          <article class="project-card small-card reveal">
+            <div><span class="project-type">FIRST STEPS</span><h3>HTML Practice</h3><p>My first public HTML repository and an early milestone in learning web development.</p></div>
+            <a href="https://github.com/Levi3110/test1" target="_blank" rel="noopener noreferrer">View repository <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="wrap skills-grid">
+        <div class="skills-copy reveal">
+          <div class="section-label light"><span>04</span> Skills</div>
+          <h2>Tools I use to turn<br>ideas into products.</h2>
+          <p>My toolkit has grown alongside my projects, from web fundamentals to modern AI infrastructure.</p>
+          <a class="primary-button light-button" href="https://github.com/Levi3110" target="_blank" rel="noopener noreferrer">Explore my code <span>↗</span></a>
+        </div>
+        <div class="skill-groups reveal delay">
+          <article><span>01</span><div><h3>Artificial Intelligence</h3><p>Qwen · LangChain · RAG · AI agents · Tool calling · Semantic search</p></div></article>
+          <article><span>02</span><div><h3>Backend & Data</h3><p>Python · FastAPI · Django · Node.js · MongoDB · REST APIs</p></div></article>
+          <article><span>03</span><div><h3>Search & Retrieval</h3><p>FAISS · BM25 · Sentence Transformers · Hybrid ranking</p></div></article>
+          <article><span>04</span><div><h3>Frontend</h3><p>React · JavaScript · HTML · CSS · Tailwind CSS</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section section">
+      <div class="wrap cta-inner reveal">
+        <div><span>Want to see what I build next?</span><h2>Let’s connect on GitHub.</h2></div>
+        <a class="primary-button" href="https://github.com/Levi3110" target="_blank" rel="noopener noreferrer">Visit @Levi3110 <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><a class="logo" href="#home">Nam Anh<span>.</span></a><p>Developer & AI builder</p><p>© 2026 · Built from my GitHub journey</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
